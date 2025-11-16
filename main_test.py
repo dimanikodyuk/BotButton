@@ -106,6 +106,7 @@ async def contact_received(msg: types.Message):
         reply_markup=types.ReplyKeyboardRemove()
     )
 
+#test
 
 # ====== Користувач надсилає текст/фото ======
 @dp.message(lambda m: m.chat.type == "private" and m.contact is None)
